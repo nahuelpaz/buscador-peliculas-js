@@ -47,6 +47,8 @@ function displayMovies(movies) {
         let poster = document.createElement('img');
         poster.src = posterPath;
 
+        resultContainer.style.color = 'black';
+
         movieContent.append(title, releaseDate, overview);
 
         movieDiv.append(poster, movieContent)
